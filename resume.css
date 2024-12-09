@@ -1,0 +1,66 @@
+/* GLOBAL STYLES 
+---------------------------------*/
+body{
+    background-color: floralwhite;
+}
+
+/* HOME 
+---------------------------------*/
+body{
+    background-image: url(./placeholder-images/bg-coffee-shop.jpg);
+    background-size: cover;
+    font-size: larger;
+    color: black;
+}
+
+body .container .header{
+    color: rgba(0,0,0,6);
+}
+
+body .container .section{
+    background-color: rgb(7, 1, 2);
+    color: #d3d4d6;
+}
+
+a{
+   color: crimson; 
+}
+
+a:hover{
+    color: bisque;
+
+}
+header{
+    background-image: url(bg-home-office-bookshelf.jpg);
+    background-size: cover;
+    display: block;
+    height: 375px;
+    content:"";
+}
+/*section{
+    background-image: url(bg-home-office-bookshelf.jpg);
+    background-size: cover;
+    display: block;
+    height: 375px;
+    content:"";
+}*/
+
+.resume-section{
+    margin-bottom: 100px;
+}
+.download-btn {
+    background-color: #171313;
+    text-align: left;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.1em;
+    margin-top: 10px;
+
+}
+.download-btn:hover {
+    background-color: #555;
+  }
+
